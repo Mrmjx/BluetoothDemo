@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:hint="输入时间格式00y00m00d00H00Min00mm"
+        />
+
+
+
+    <Button
+        android:id="@+id/set_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置时间"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="星期"/>
+        <EditText
+            android:id="@+id/edit_date"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp"
+            android:hint="00"></EditText>
+
+    <EditText
+        android:id="@+id/edit_hour"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:hint="00"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时"/>
+        <EditText
+            android:id="@+id/edit_min"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp"
+            android:hint="00"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分"/>
+
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/set_alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置闹钟"
+        />
+
+</LinearLayout>
